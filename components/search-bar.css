@@ -1,0 +1,53 @@
+.search\ bar-container {
+  width: 302px;
+  height: 24px;
+  display: flex;
+  align-items: space-between;
+  flex-direction: row;
+}
+.search\ bar-icon {
+  fill: var(--dl-color-gray-black);
+  width: 21px;
+  height: 23px;
+  align-self: stretch;
+}
+.search\ bar-input {
+  width: 272px;
+  height: 23px;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 1rem;
+}
+.search\ bar-root-class-name {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.search\ bar-root-class-name1 {
+  margin-left: 200px;
+  margin-right: 0px;
+}
+.search\ bar-root-class-name2 {
+  margin-left: 200px;
+  margin-right: 0px;
+}
+.search\ bar-root-class-name3 {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.search\ bar-root-class-name4 {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.search\ bar-root-class-name5 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.search\ bar-root-class-name6 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.search\ bar-root-class-name7 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.search\ bar-root-class-name8 {
+  align-self: flex-start;
+}

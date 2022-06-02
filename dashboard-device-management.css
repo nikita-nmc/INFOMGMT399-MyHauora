@@ -1,0 +1,741 @@
+.title-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(217, 217, 217, 0);
+}
+.title-image {
+  width: 82px;
+  height: 72px;
+  object-fit: cover;
+}
+.title-text {
+  color: var(--dl-color-gray-black);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  background-color: rgba(217, 217, 217, 0);
+}
+.title-root-class-name {
+  margin-right: 50px;
+}
+.title-root-class-name1 {
+  margin-right: 50px;
+}
+.title-root-class-name2 {
+  margin-right: 50px;
+}
+.title-root-class-name3 {
+  margin-right: 50px;
+}
+.title-root-class-name4 {
+  margin-right: 50px;
+}
+.title-root-class-name5 {
+  margin-right: 50px;
+}
+.title-root-class-name6 {
+  margin-right: 50px;
+}
+.title-root-class-name7 {
+  margin-right: 50px;
+}
+.title-root-class-name8 {
+  margin-right: 50px;
+}
+.title-root-class-name9 {
+  margin-right: 50px;
+}
+.title-root-class-name10 {
+  margin-right: 50px;
+}
+.title-root-class-name11 {
+  margin-right: 50px;
+}
+.title-root-class-name12 {
+  margin-right: 50px;
+}
+.title-root-class-name13 {
+  margin-right: 50px;
+}
+.title-root-class-name14 {
+  margin-right: 50px;
+}
+.title-root-class-name15 {
+  margin-right: 50px;
+}
+.title-root-class-name16 {
+  margin-right: 50px;
+}
+
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.dashboard-device-management-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.dashboard-device-management-header {
+  width: 100%;
+  height: 114px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.dashboard-device-management-burger-menu {
+  display: none;
+}
+.dashboard-device-management-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dashboard-device-management-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.dashboard-device-management-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dashboard-device-management-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.dashboard-device-management-image {
+  height: 2rem;
+}
+.dashboard-device-management-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-device-management-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dashboard-device-management-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.dashboard-device-management-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.dashboard-device-management-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.dashboard-device-management-header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard-device-management-help {
+  font-size: 18px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dashboard-device-management-help:hover {
+  color: #ffffff;
+  border-color: var(--dl-color-gray-500);
+  background-color: var(--dl-color-gray-500);
+}
+.dashboard-device-management-careers {
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dashboard-device-management-careers:hover {
+  color: #ffffff;
+  border-color: var(--dl-color-gray-500);
+  background-color: var(--dl-color-gray-500);
+}
+.dashboard-device-management-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.dashboard-device-management-about-us {
+  width: 118px;
+  font-size: 18px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dashboard-device-management-about-us:hover {
+  color: #ffffff;
+  border-color: var(--dl-color-gray-500);
+  background-color: var(--dl-color-gray-500);
+}
+.dashboard-device-management-contact-us {
+  width: 131px;
+  font-size: 18px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  border-color: var(--dl-color-gray-white);
+  text-decoration: none;
+}
+.dashboard-device-management-contact-us:hover {
+  color: #ffffff;
+  border-color: var(--dl-color-gray-500);
+  background-color: var(--dl-color-gray-500);
+}
+.dashboard-device-management-log-out {
+  color: var(--dl-color-primary-300);
+  width: 123px;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-sixunits);
+  border-color: var(--dl-color-gray-700);
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.dashboard-device-management-log-out:hover {
+  color: var(--dl-color-primary-300);
+  border-color: var(--dl-color-primary-300);
+  background-color: var(--dl-color-gray-900);
+}
+.dashboard-device-management-text01 {
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.dashboard-device-management-centre-page {
+  height: 537px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/untitled-6-1500w.jpg");
+}
+.dashboard-device-management-sidebar {
+  width: 591px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 0px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 0.45);
+}
+.dashboard-device-management-container2 {
+  width: 361px;
+  height: 528px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dashboard-device-management-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dashboard-device-management-notification {
+  width: 343px;
+  font-size: 30px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-weight: 700;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.dashboard-device-management-notification:hover {
+  background-color: rgba(243, 148, 10, 0.72);
+}
+.dashboard-device-management-device-management {
+  font-size: 30px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 700;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(243, 148, 10, 0.72);
+}
+.dashboard-device-management-medical-reporting {
+  font-size: 30px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-weight: 700;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.dashboard-device-management-medical-reporting:hover {
+  background-color: rgba(243, 148, 10, 0.72);
+}
+.dashboard-device-management-contact-g-p {
+  font-size: 30px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-weight: 700;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.dashboard-device-management-contact-g-p:hover {
+  background-color: rgba(243, 148, 10, 0.72);
+}
+.dashboard-device-management-profile {
+  width: 100%;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashboard-device-management-image1 {
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-round);
+}
+.dashboard-device-management-container3 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dashboard-device-management-text03 {
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.dashboard-device-management-navlink {
+  color: var(--dl-color-gray-500);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.dashboard-device-management-middle-section {
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  margin-top: 0px;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  background-color: rgba(212, 208, 208, 0.89);
+}
+.dashboard-device-management-titles {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard-device-management-text05 {
+  margin-left: 165px;
+  margin-right: 55px;
+}
+.dashboard-device-management-device-connection {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard-device-management-icon10 {
+  width: 45px;
+  height: 45px;
+  align-self: center;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.dashboard-device-management-text08 {
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.dashboard-device-management-remove {
+  color: var(--dl-color-gray-white);
+  align-self: flex-start;
+  transition: 0.3s;
+  border-color: var(--dl-color-danger-500);
+  background-color: var(--dl-color-danger-500);
+}
+.dashboard-device-management-remove:hover {
+  color: var(--dl-color-danger-500);
+  background-color: transparent;
+}
+.dashboard-device-management-device-connection1 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard-device-management-icon12 {
+  width: 45px;
+  height: 45px;
+  align-self: center;
+  margin-left: 150px;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.dashboard-device-management-text10 {
+  margin-right: 40px;
+}
+.dashboard-device-management-connect {
+  color: var(--dl-color-gray-white);
+  width: 98px;
+  align-self: flex-start;
+  margin-top: 0px;
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: #1a91f7;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: #1a91f7;
+}
+.dashboard-device-management-connect:hover {
+  color: #1a91f7;
+  background-color: transparent;
+}
+.dashboard-device-management-device-connection2 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dashboard-device-management-icon14 {
+  width: 45px;
+  height: 45px;
+  align-self: center;
+  margin-left: 75px;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.dashboard-device-management-text12 {
+  margin-right: 60px;
+}
+.dashboard-device-management-retry {
+  color: var(--dl-color-gray-white);
+  width: 98px;
+  margin-top: 0px;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 0px;
+  border-color: #cb8734;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: #cb8734;
+}
+.dashboard-device-management-retry:hover {
+  color: #cb8734;
+  background-color: transparent;
+}
+.dashboard-device-management-text15 {
+  text-align: center;
+}
+.dashboard-device-management-footer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-primary-300);
+}
+.dashboard-device-management-container4 {
+  height: 85px;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard-device-management-disclaimer-info {
+  width: 765px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard-device-management-icon16 {
+  fill: #D9D9D9;
+  width: 45px;
+  height: 33px;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.dashboard-device-management-text16 {
+  color: var(--dl-color-gray-white);
+  align-self: stretch;
+  text-align: left;
+  padding-right: var(--dl-space-space-twounits);
+}
+.dashboard-device-management-text17 {
+  font-weight: 700;
+}
+.dashboard-device-management-socials {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard-device-management-icon18 {
+  fill: #D9D9D9;
+  width: 37px;
+  height: 37px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.dashboard-device-management-icon20 {
+  fill: #D9D9D9;
+  width: 37px;
+  height: 37px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.dashboard-device-management-icon22 {
+  fill: #D9D9D9;
+  width: 37px;
+  height: 37px;
+}
+.dashboard-device-management-separator {
+  flex: 0 0 auto;
+  height: 0px;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.dashboard-device-management-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.dashboard-device-management-navlink1 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dashboard-device-management-container5 {
+  width: 313px;
+  height: 44px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard-device-management-text20 {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  margin-top: 0px;
+}
+@media(max-width: 991px) {
+  .dashboard-device-management-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .dashboard-device-management-image1 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .dashboard-device-management-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dashboard-device-management-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard-device-management-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dashboard-device-management-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .dashboard-device-management-container5 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .dashboard-device-management-text20 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .dashboard-device-management-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .dashboard-device-management-mobile-menu {
+    padding: 16px;
+  }
+  .dashboard-device-management-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .dashboard-device-management-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .dashboard-device-management-container5 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .dashboard-device-management-text20 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
