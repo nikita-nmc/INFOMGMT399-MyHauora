@@ -27,8 +27,6 @@
 
     };
 
-
-
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
@@ -36,19 +34,12 @@
     const db = getFirestore(app);
 
 
-
-
 //auth state listener
 auth.onAuthStateChanged(user => {
     if (user) {
-
-
         setReport(user);
-      
         console.log('User logged in')
-
 } else {
-
     console.log('User logged out')
 }
 }
@@ -69,9 +60,7 @@ getDocs(q).then((snapshot) => {
     iframeBox.setAttribute("src", doc.data().PowerBI)
   })
   })
-  
 }
-
 
   
 // logout
@@ -83,7 +72,6 @@ logout.addEventListener('click', (e) => {
   window.location.href = "index.html";
   console.log("user signed out")
 });
-
 
 
 const clearNotification1 = document.querySelector('#closebutton1');
@@ -100,32 +88,20 @@ clearNotification2.addEventListener('click', (f) => {
 })
 
 
-
 clearNotification3.addEventListener('click', (g) => {
   document.getElementById('not3').innerHTML="";
 })
-
-
-
 
 
 const settingsForm = document.querySelector('#userSave');    
 
 settingsForm.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log("clicked");
 
     //get user info
     const username = document.getElementById("usernameInput").value;
-
-    console.log(username);
-
     const modal = document.querySelector('#userDisplay');
     modal.innerHTML = username;
-
-
-
-
 
 });
 
