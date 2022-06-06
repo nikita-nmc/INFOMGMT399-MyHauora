@@ -2,7 +2,7 @@
 INFOMGMT-399 Capstone - MyHauora
 This Github repository contains:
 1. Dashboard source files
-2. SQL Database backup file
+2. SQL Database backup file (text file containing a Google Drive Link
 3. Python code for processing and loading the dataset
 
 Our live dashboard is at https://myhauora.co.nz/
