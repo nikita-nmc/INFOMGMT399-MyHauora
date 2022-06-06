@@ -46,10 +46,8 @@ signupForm.addEventListener('submit', (e) => {
     const email = signupForm['signup-email'].value;
     const password = signupForm['signup-password'].value;
 
-    console.log(email, password);
     //sign up the user
     createUserWithEmailAndPassword(auth, email, password).then((cred) => {
-        console.log(cred);
         const modal = document.querySelector('#modal-signup');
         window.location.href = "dashboard-notification.html"
 
