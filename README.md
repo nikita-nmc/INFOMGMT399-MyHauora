@@ -1,6 +1,6 @@
 # INFOMGMT399-MyHauora
-INFOMGMT-399 Capstone - MyHauora
-Team 1 - Semester 1, 2022
+INFOMGMT-399 Capstone - MyHauora  
+Team 1 - Semester 1, 2022  
 
 This Github repository contains:
 1. Dashboard source files
